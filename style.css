@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    background-color: pink;
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+h4 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 600px;
+    background-color: violet;
+    padding: 25px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+form input {
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid rgb(236, 38, 71);
+}
+
+form input.mEle {
+    width: 500px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 0px 10px;
+}
+
+form input.button {
+    font-size: 1rem;
+    padding: 12px 20px;
+    background-color: pink;
+    /* color: white; */
+    font-weight: 500;
+    cursor: pointer;
+}
+
+h5 {
+    background-color: rgb(249, 122, 122);
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.error {
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.msg-cont {
+    color: rgb(1, 153, 255);
+}
